@@ -1,9 +1,10 @@
 * {margin: 0;
 padding: 0;}
 
+main {border: 0.063rem solid #A2A2A2;}
+
 header {height: 4rem;
 display: flex;
-border: 1px solid black;
 margin: 0;
 align-items: center;
 padding-right: 1.5rem;
@@ -17,8 +18,66 @@ ul {list-style-type: none;
 display: flex;
 justify-content: flex-end;}
 
-p {font-size: 2rem;
+header p {font-size: 2rem;
 font-family: "Helvetica";}
 
 li {font-family: "Helvetica";
 padding-left: 1rem;}
+
+.banner {background-color: #D2D2D2;
+display: flex;
+width: 100%;}
+
+h1 {font-family: "Verdana";
+font-size: 2.5rem;
+color: #4a4a4a;}
+
+h3 {font-family: "Verdana";
+padding: 2rem 2rem 2rem 0rem;
+color: #4a4a4a;}
+
+.banner img {width: 60%;
+padding: 2rem 1.5rem;}
+
+.caption {display: flex;
+flex-direction: column;
+justify-content: center;
+padding-right: 2rem;}
+
+.features {background-color: #F1F1F1;
+width: 100%;
+display: flex;
+}
+
+.sidea {width: 60%;
+padding: 2rem 1.5rem;}
+
+.sidea img {width: 100%;}
+
+h2 {font-family: "Verdana";
+color: #4a4a4a;
+font-size: 2rem;
+margin-top: 2rem;}
+
+p {font-family: "Verdana";
+color: #4a4a4a;
+margin: 1.5rem 0;
+width: 80%;
+font-size: 0.9rem;}
+
+span {font-family: "Verdana";
+color: #4a4a4a;
+font-size: 0.8rem;
+}
+
+.sideb {
+width: 40%;
+display: flex;
+flex-direction: column;
+border-left: 1px solid #A2A2A2;}
+
+.sideb img {width: 35%;
+height: auto;
+padding: 1rem;}
+
+.box {display: flex;}
