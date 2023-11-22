@@ -39,6 +39,14 @@ width: 70%;}
 .banner img {width: 60%;
 padding: 2rem 1.5rem;}
 
+button {font-family: "Verdana";
+background-color: #4a4a4a;
+font-size: 1rem;
+color: #F1F1F1;
+border: none;
+width: 85%;
+padding: 0.5rem 0;}
+
 .caption {display: flex;
 flex-direction: column;
 justify-content: center;
