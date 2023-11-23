@@ -92,6 +92,8 @@ width: 40%;
 display: flex;
 flex-direction: column;}
 
+#mobile {display: none;}
+
 .sideb img {width: 35%;
 height: auto;
 padding: 1rem;}
@@ -187,27 +189,38 @@ width: 80%;
 font-size: 0.9rem;
 line-height: 1.5}
 
+.sided {
+width: 40%;
+display: flex;
+flex-direction: column;}
+    
+.sided img {width: 35%;
+height: auto;
+padding: 1rem;}
+
 /*Footer*/
 
 footer {background-color: #F1F1F1;
 height: 4rem;
 border-top: 1px solid #A2A2A2;
+padding: 0;
+width: 100%;
 display: flex;
-align-items: center;
-padding: 0 1.5rem;}
+align-items: center;}
 
-.rights p {font-family: "Verdana";
+.rights {width: 100%;
+padding-left: 1.5rem;
+font-family: "Verdana";
 font-size: 0.8rem;}
 
-.terms span {font-family: "Verdana";
-font-size: 0.8rem;
-margin-left: 1rem;}
-
-.terms {width: 50%;
+.terms {width: 100%;
 display: flex;
-justify-content: flex-end;}
+justify-content: flex-end;
+padding-right: 1.5rem;
+font-family: "Verdana";
+font-size: 0.8rem;}
 
-.rights {width:50%;}
+.terms span {padding-left: 1rem;}
 
 /* Media query for mobile phones */
 
@@ -243,8 +256,69 @@ width: 100%;}
 
 button {margin: 0 auto 2rem;}
 
+/*First section - Info*/
+
 .caption {padding: 0;
 width: 90%;}
-    
 
+.container {margin-top: 0;}
+
+.sidea {display: none;}
+
+.sideb {width: 100%;}
+
+.box {display: flex;
+flex-direction: column;}
+
+#desktop {display: none;}
+
+#mobile {display: flex;
+width: 100%;
+padding-top: 0;
+margin-top: 1rem;}
+
+.caption a {padding-bottom: 1rem;
+margin-left: 1rem;}
+
+.caption h3 {margin-left: 1rem;}
+
+.caption p {display: flex;
+margin-left: 1rem;}
+
+#last a {margin-bottom: 1rem;}
+
+/*Second section - Courses*/
+
+.gallery {display: flex;
+flex-direction: column;
+padding: 2rem 3.5rem 1rem 3.5rem;}
+
+.areas {width: 100%;
+background-color: white;
+margin: 0 0 0.5rem 0;}
+
+.areas img {display: none;}
+    
+.areas p {display: none;}
+    
+.areas h3 {font-family: "Verdana";
+color: #4a4a4a;
+text-align: center;
+padding: 0;
+margin: 1.5rem 0 1.5rem 0;}
+    
+.areas span {display: none;}
+
+/*Last section - Thesis*/
+
+.sided {display: none;}
+
+.sidec {width: 100%;
+padding: 2rem 0 1.5rem 0;}
+
+.sidec h3, p {display: none;}
+
+/*Footer*/
+
+.terms {display:none;}
 }
