@@ -84,13 +84,8 @@ line-height: 1.5}
 
 .sidea span {font-family: "Verdana";
 color: #4a4a4a;
-<<<<<<< HEAD
 font-size: 0.8rem;
 width: 80%;
-=======
-font-size: 12px;
-width:80%;
->>>>>>> 3512c41578954ee47ef637c8ea75838f495fc7ed
 }
 
 .sideb {
@@ -113,7 +108,8 @@ border-bottom: 1px solid #A2A2A2;}
 
 .subtitle {display: flex;
 flex-direction: column;
-width: 65%;}
+width: 65%;
+justify-content: center;}
 
 .subtitle h3 {font-family: "Verdana";
 color: #4a4a4a;}
